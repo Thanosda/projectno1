@@ -11,6 +11,7 @@
   <a href="index2.html">Next page</a>
 <br><br><br>
   <img src="/projectno1/img/1012793.png" alt="img" width="120" height="180">
+
     <h1> hello world</h1>
     <p>this is a some kind of joke to do tin this project   <em> i lie it</em> </p> <hr>
     <h2> hello world</h2>
@@ -27,7 +28,7 @@
   <li>Tea</li>
   <li>Milk</li>
 </dl>
-   <a href=""></a>
+   <a href=#contact_me>contact me</a>
 
    <table>
 <tr bgcolor="grey"> >
@@ -46,8 +47,68 @@
   <td>HERO</td>
 </tr>
 
-   </table>
+   </table> <br><br><br><br>
 
+   <fieldset>
+    <legend>  <h1>Contact me</h1></legend>
+   <section id = #contact_me>
+       <h2>Contact Me</h2>
+       <form action=""></form>
+       <Label for ="firstname">Name : </Label>
+      <input  type="text" name="Name :" id="firstname" placeholder="Enter your name" required>
+       <br><br>
+       <Label for ="Age">Age   : </Label>
+      <input  type="text" name="Age :" id="Age" placeholder="Enter your Age" required>
+        <br><br>
+       <Label for ="Phone">Phone   : </Label>
+      <input  type="tel" name="Phone :" id="Phone" placeholder="Enter your number" pattern = "(0-9) "required>
+       
+        <br><br>
+       <Label for ="Password">Password   : </Label>
+      <input  type="password" name="Password :" id="Password" placeholder="Password" required>
+       
+        <br><br>
+       <Label for ="year">year   : </Label>
+      <input  type="number" name="year :" id="year" placeholder="year" min="1990" value="1990" max="2050" step="2" required>
+       
+        <br><br>
+       <Label for ="habit">habit  : </Label>
+      <select  type="content" name="habit :" id="habit"  required>
+       
+       <optgroup label=" hobby"> <option value="reading"> reading</option>
+       <option value="writing"> writing</option>
+       <option value="sleeping" selected > sleeping</option></optgroup>
+       <option value="gameing"> gameing</option>
+       <option value="coding"> coding</option>
+     
+     
+     </fieldset>
+     <br><br><br><br>
+
+
+ 
+
+   </section>
+
+   <section>
+      <h2>Checkboxes and Radio Buttons</h2>
+      <fieldset>
+        <legend> Select your hobbies</legend>
+        <input type="checkbox" id="hobby1" name="hobby" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobby" value="writing">
+        <label for="hobby2">Writing</label><br>
+        <input type="checkbox" id="hobby3" name="hobby" value="sleeping" checked>
+        <label for="hobby3">Sleeping</label><br>
+      </fieldset>
+    <fieldset>
+      <legend> fav food</legend>
+       <input type="radio" id="food" name ="food" id="fav food" value="pizza" checked>
+ <label for=" fav food">food</label>
+
+     </fieldset>
+     <button> submit</button>
+   </section>
 <!-- jhjjj-->
 </body>
 </html>
